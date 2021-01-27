@@ -14,8 +14,9 @@
 .list_container {
   width: 80%;
   height: 70px;
-  background-color: orange;
+
   margin: auto;
+  position: relative;
 }
 
 
@@ -33,34 +34,43 @@
 }*/
 
 #logo {
-  width: 100px;
-  margin-top: 15px;
-
-
+  margin-top: 10px;
 }
 
 ul {
+
   display: inline-block;
-  vertical-align: middle;
-
-
+  position: absolute;
+  right: 0;
+  bottom: 25px;
 }
 
 ul li {
   display: inline-block;
   padding-right: 10px;
   list-style: none;
-
-
-
 }
 
 a {
+  color: #fff;
   text-decoration: none;
   text-transform:uppercase;
   font-size: x-small;
+}
+
+#nav_empty_space {
+  color: rgba(255, 0, 0, 0);
+}
 
 
+.button {
+  height: 20px;
+  border: white solid 1px;
+  padding: 3px 13px;
+  border-radius: 5px;
+}
 
-
+.button.green {
+  background-color: green;
+  border: green solid 1px;
 }
