@@ -11,9 +11,40 @@
   background-color: #123259;
 }
 
-.nav_cont {
-  width: 85%;
-  height: 40px;
+.list_container {
+  width: 80%;
+  height: 70px;
   background-color: orange;
   margin: auto;
+}
+
+
+.nav_cont.row_left {
+  width: 60%;
+  height: 70px;
+  background-color: orange;
+  float: left;
+}
+
+
+.nav_cont.row_right {
+  width: 40%;
+  height: 70px;
+  background-color: white;
+  float: left;
+
+}
+
+#logo {
+
+}
+
+ul {
+  display: inline-block;
+
+}
+
+ul li {
+  display: inline-block;
+
 }
