@@ -1,4 +1,19 @@
-.div {
-  height: 20px;
-  background-color: blue;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*-----HEADER-----*/
+
+.container_header {
+  height: 100vh;
+  background-color: #123259;
+}
+
+.nav_cont {
+  width: 85%;
+  height: 40px;
+  background-color: orange;
+  margin: auto;
 }
