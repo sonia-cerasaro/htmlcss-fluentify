@@ -19,32 +19,48 @@
 }
 
 
-.nav_cont.row_left {
+/*.nav_cont.row_left {
   width: 60%;
   height: 70px;
   background-color: orange;
   float: left;
 }
-
-
 .nav_cont.row_right {
   width: 40%;
   height: 70px;
   background-color: white;
   float: left;
-
-}
+}*/
 
 #logo {
+  width: 100px;
+  margin-top: 15px;
+
 
 }
 
 ul {
   display: inline-block;
+  vertical-align: middle;
+
 
 }
 
 ul li {
   display: inline-block;
+  padding-right: 10px;
+  list-style: none;
+
+
+
+}
+
+a {
+  text-decoration: none;
+  text-transform:uppercase;
+  font-size: x-small;
+
+
+
 
 }
