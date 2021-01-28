@@ -125,13 +125,49 @@ h1 {
 
 .p_grey_first_section {
   margin-top: 10px;
+  color: grey;
   font-size: small;
 }
 
-/*-----HEADER SECOND SECTION GREY ROW-----*/
+/*-----MAIN-----*/
 
 .main_container {
   width: 100%;
   height: 100vh;
   background-color: orange;
+}
+
+/*-----FIRST COLUMN----*/
+
+.row:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.row {
+  margin: auto;
+  padding-top: 30px;
+  width: 80%;
+}
+
+[class^="col-"] {
+  float: left;
+  padding: 0 15px;
+}
+
+.col- {
+  width: calc("80% / 3");
+  background-color: blue;
+}
+
+.col-.two {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+/*-----SECOND COLUMN----*/
+
+.col-.five {
+  width: 50%;
 }
