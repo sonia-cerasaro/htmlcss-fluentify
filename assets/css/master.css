@@ -278,3 +278,20 @@ hr {
 .lista_finale {
   padding-top: 25px;
 }
+
+select {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+
+.bt_jambo.last {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  text-align: center;
+  position: fixed;
+  right: 180px;
+}
