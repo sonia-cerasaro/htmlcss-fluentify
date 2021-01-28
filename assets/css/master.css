@@ -159,25 +159,45 @@ h1 {
 
 .col- {
   width: calc(100% / 3);
+  height: 500px;
 
 }
 
-/*-----CONTENTS FIRST COLUMN----*/
+/*-----CONTENTS COLUMNS----*/
 
-.cont_img_small {
-  width: 50px;
-  height: 50px;
+.cont_img_small.first {
+  width: 250px;
+  height: 200px;
+  background-image: url("../img/profile.svg");
+  background-size: cover;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
 }
 
-.img_small {
-  width: 200px;
-  position: relative;
-  top: 0;
-  right: -50px;
+.cont_img_small.second {
+  width: 250px;
+  height: 200px;
+  background-image: url("../img/computer.svg");
+  background-size: cover;
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: 57% 65%;
 }
+
+.cont_img_small.third {
+  width: 250px;
+  height: 200px;
+  background-image: url("../img/doc.svg");
+  background-size: cover;
+  background-size: 170px;
+  background-repeat: no-repeat;
+  background-position: 30% 70%;
+}
+
 
 .green_p {
-  color: green;
+  color: #64e08a;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -185,8 +205,10 @@ h1 {
 }
 
 .small_line {
+  border: lightgrey solid 1px;
   width: 20%;
   margin: auto;
+
 }
 
 .text_column {
@@ -194,7 +216,6 @@ h1 {
   font-size: small;
   padding-top: 20px;
   padding-bottom: 10px;
-
 }
 
 
@@ -202,4 +223,35 @@ h1 {
 
 .col-.five {
   width: 50%;
+}
+
+.img_mountain {
+  width: 370px;
+  height: 500px;
+  background-image: url("../img/mountain.svg");
+  background-size: cover;
+  background-size: 370px;
+  background-repeat: no-repeat;
+  background-position: 40% 40%;
+}
+
+.text_mountain {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.text_mountain.bottom {
+  color: grey;
+  font-size: small;
+  padding-bottom: 10px;
+
+}
+
+.last_link {
+  text-decoration: underline;
+  text-transform: none;
+  color: blue;
+  font-size: x-small;
 }
