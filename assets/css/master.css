@@ -212,12 +212,19 @@ h1 {
 }
 
 .text_column {
+  color: grey;
   text-align: center;
   font-size: small;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
+hr {
+  border: lightgrey solid 1px;
+  width: 90%;
+  margin: auto;
+
+}
 
 /*-----SECOND COLUMN----*/
 
@@ -254,4 +261,20 @@ h1 {
   text-transform: none;
   color: blue;
   font-size: x-small;
+}
+
+/*-----FOOTER----*/
+
+.text_grey_row {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.struttura {
+  text-align: left;
+}
+
+.lista_finale {
+  padding-top: 25px;
 }
