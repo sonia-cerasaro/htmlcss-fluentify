@@ -148,6 +148,7 @@ h1 {
 .row {
   margin: auto;
   padding-top: 30px;
+  padding-bottom: 30px;
   width: 80%;
 }
 
@@ -157,13 +158,12 @@ h1 {
 }
 
 .col- {
-  width: calc("80% / 3");
+  width: calc(100% / 3);
   background-color: blue;
 }
 
 .col-.two {
-  margin-left: 25px;
-  margin-right: 25px;
+
 }
 
 /*-----SECOND COLUMN----*/
