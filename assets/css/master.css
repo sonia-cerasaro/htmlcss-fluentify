@@ -32,6 +32,10 @@ ul {
   bottom: 25px;
 }
 
+.ul_first {
+  left: 200px;
+}
+
 ul li {
   display: inline-block;
   padding-right: 10px;
@@ -43,10 +47,6 @@ a {
   text-decoration: none;
   text-transform:uppercase;
   font-size: x-small;
-}
-
-#nav_empty_space {
-  color: rgba(255, 0, 0, 0);
 }
 
 .button {
@@ -237,7 +237,7 @@ hr {
   height: 500px;
   background-image: url("../img/mountain.svg");
   background-size: cover;
-  background-size: 370px;
+  background-size: 330px;
   background-repeat: no-repeat;
   background-position: 40% 40%;
 }
